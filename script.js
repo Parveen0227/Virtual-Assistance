@@ -91,7 +91,7 @@ Voice.style.display="none"
 
 }else if(message.includes("open whatsapp")){
         speak("opening whatsapp")
-        window.open("whatsapp://")
+        window.open("https://web.whatsapp.com/", "_blank")
 
         }else if(message.includes("time")){
         let time=new Date().toLocaleDateString(undefined,{hour:"numeric",minute:"numeric"})
