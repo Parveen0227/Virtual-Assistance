@@ -62,7 +62,7 @@ Voice.style.display="none"
 
         }else if(message.includes("open chatgpt")){
         speak("opening chatgpt")
-        window.open("https://chatgpt.com/", "_blank")
+        window.open("https://www.chatgpt.com/", "_blank")
 
 
     }else if(message.includes("open Google")){
