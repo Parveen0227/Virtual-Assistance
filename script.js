@@ -58,28 +58,28 @@ Voice.style.display="none"
 
     }else if(message.includes("open youtube")){
         speak("opening youtube")
-        window.open("https://www.youtube.com")
+        window.open("https://www.youtube.com/", "_blank")
 
         }else if(message.includes("open chatgpt")){
         speak("opening chatgpt")
-        window.open("https://chatgpt.com")
+        window.open("https://chatgpt.com/", "_blank")
 
 
     }else if(message.includes("open Google")){
         speak("opening Google")
-        window.open("https://www.google.com")
+        window.open("https://www.google.com/", "_blank")
 
 }else if(message.includes("open facebook")){
         speak("opening facebook")
-        window.open("https://www.facebook.com")
+        window.open("https://www.facebook.com/", "_blank")
 
         }else if(message.includes("open instagram")){
         speak("opening instagram")
-        window.open("https://www.instagram.com")
+        window.open("https://www.instagram.com/", "_blank")
 
 }else if(message.includes("open chrome")){
         speak("opening chrome")
-        window.open("https://www.chrome.com")
+        window.open("https://www.chrome.com/", "_blank")
 
 }else if(message.includes("open calculator")){
         speak("opening calculator")
@@ -87,7 +87,7 @@ Voice.style.display="none"
 
         }else if(message.includes("open linkedin")){
         speak("opening linkedin")
-        window.open("https://www.linkedin.com")
+        window.open("https://www.linkedin.com/", "_blank")
 
 }else if(message.includes("open whatsapp")){
         speak("opening whatsapp")
